@@ -12,10 +12,12 @@
 CBOP
 C     !ROUTINE: SEAICE_GROWTH_ADJOINTABLE
 C     !INTERFACE:
-      SUBROUTINE SEAICE_GROWTH_ADJOINTABLE
-     I  ( myTime, myIter, myThid )
+      SUBROUTINE SEAICE_GROWTH_ADJOINTABLE( myTime, myIter, myThid )
 C     !DESCRIPTION: \bv
-
+C     *==========================================================*
+C     | SUBROUTINE seaice_growth_adjointable
+C     | o  based on  seaice_growth_if
+C     *==========================================================*
 C     \ev
 
 C     !USES:
